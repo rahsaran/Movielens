@@ -22,6 +22,9 @@ library(lubridate)
 edx <- readRDS("C:\\Users\\Rahul Saran\\Desktop\\Data Science\\Capstone\\edx.rds")
 validation <- readRDS("C:\\Users\\Rahul Saran\\Desktop\\Data Science\\Capstone\\validation.rds")
 
+#I have also provided below the link to the github repository with the files
+# https://github.com/rahsaran/Movielens.git.
+
 #The code below is an alternative to download and loads the data. Do not use this if using R 3.6.0.
 #If using this code, please uncomment it (remove one hashtag from each line of the code).
 

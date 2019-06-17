@@ -58,7 +58,7 @@ library(lubridate)
 ```
 
 Let's load the dataset. 
-Important:
+Ways to load the dataset:
 1) I have included the code I have used to download the dataset on my system.
 2) Since you may already have the edx & validation datasets on your system, the best way is to load the edx dataset into a variable called 'edx' and the validation dataset into a variable called 'validation' by adding the relevant code here. That will minimize the scope of errors. You may simply replace the filepath for these files on my system with the filepath on your system.
 3) I have also included the code to download the dataset and load it as provided. However, this does not work if using R 3.6.0.
@@ -69,6 +69,9 @@ Important:
 
 edx <- readRDS("C:\\Users\\Rahul Saran\\Desktop\\Data Science\\Capstone\\edx.rds")
 validation <- readRDS("C:\\Users\\Rahul Saran\\Desktop\\Data Science\\Capstone\\validation.rds")
+
+#I have also provided below the link to the github repository with the files
+# https://github.com/rahsaran/Movielens.git.
 
 #The code below is an alternative to download and loads the data. Do not use this if using R 3.6.0.
 #If using this code, please uncomment it (remove one hashtag from each line of the code).
